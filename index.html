@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<title>Custom Button Box</title>
+	<link rel="apple-touch-icon" href="./apple-touch-icon-precomposed.png"/>
+	<link rel="apple-touch-icon" sizes="72x72" href="./../web/apple-touch-icon-72x72-precomposed.png" />
+	<link rel="apple-touch-icon" sizes="114x114" href="./../web/apple-touch-icon-114x114-precomposed.png" />
+	<link rel="apple-touch-icon" sizes="144x144" href="./../web/apple-touch-icon-144x144-precomposed.png" />
+	<link rel="icon" href="./../web/favicon.png" type="image/png">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="./../utils.js"></script>
+	<script type="text/javascript" src="./../buttonbox.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+<div id="back" onclick="window.location='./../web/index.html';"></div>
+<div id="buttonbox">
+	<!-- Change the sendKey parameter to the keyboard button you want to send, eg. sendKey('k') simulates keyboard input k -->
+	<table>	
+		<tr>
+			<td><div class="button1" onclick="sendKey('z')"></div></td>		<!-- Button 1 -->
+			<td><div class="button1" onclick="sendKey('x')"></div></td> 		<!-- Button 2 -->
+			<td><div class="button2" onclick="sendKey('{Lctrl}&t')"></div></td>		<!-- Button 3 -->
+			<td><div class="button2" onclick="sendKey('{Lctrl}&a')"></div></td>		<!-- Button 4 -->
+		</tr>
+		<tr>
+			<td><div class="label orange">B bias -</div></td>							<!-- Button 1 Label -->
+			<td><div class="label orange">B bias +</div></td>						<!-- Button 2 Label -->
+			<td><div class="label blue">TC</div></td>							<!-- Button 3 Label -->
+			<td><div class="label blue">ABS</div></td>							<!-- Button 4 Label -->
+		</tr>
+		<tr>
+			<td><div class="button" onclick="sendKey('1')"></div></td>		<!-- Button 5 -->
+			<td><div class="button3" onclick="sendKey('{F11}')"></div></td>		<!-- Button 6 -->
+			<td><div class="button2" onclick="sendKey('{Lctrl}&i')"></div></td>		<!-- Button 7 -->
+			<td><div class="button2" onclick="sendKey('{Lctrl}&l')"></div></td>		<!-- Button 8 -->
+			<td><div class="buttonBOX" onclick="sendKey('f	')"></div></td>		<!-- Button 15 -->
+		</tr>
+		<tr>
+			<td><div class="label red">Turbo 10%</div></td>							-->
+			<td><div class="label green">Espejo</div></td>						<!-- Button 6 Label 
+-->
+			<td><div class="label blue">Trazada</div></td>							<!-- Button 7 Label 
+-->
+			<td><div class="label blue">Nicks</div></td>							<!-- Button 8 
+-->
+			<td><div class="label black">BOX</div></td>							<!-- Button 15
+	-->	</tr>
+		<tr>
+			<td><div class="button" onclick="sendKey('3')"></div></td>		<!-- Button 9 -->
+			<td><div class="button" onclick="sendKey('5')"></div></td>		<!-- Button 10 -->
+			<td><div class="button" onclick="sendKey('7')"></div></td>		<!-- Button 11 -->
+			<td><div class="button" onclick="sendKey('9')"></div></td>		<!-- Button 12 -->
+		</tr>
+		<tr>
+			<td><div class="label red">Turbo 30%</div></td>							<!-- Button 9 Label -->
+			<td><div class="label red">Turbo 50%</div></td>						<!-- Button 10 Label -->
+			<td><div class="label red">Turbo 70%</div></td>							<!-- Button 11 Label -->
+			<td><div class="label red">Turbo 90%</div></td>							<!-- Button 12 Label -->		
+		</tr>	
+
+	</table>
+	<br>
+	<tablelargo>
+		<tr>
+			<td><div class="buttonlargo" onclick="sendKey('y')"></div></td>		<!-- Button 13 -->
+			 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<td><div class="buttonlargoNO" onclick="sendKey('n')"></div></td> 	<!-- Button 14 -->
+		</tr>
+	</tablelargo>
+
+</div>
+</body>
+</html>
