@@ -4,7 +4,6 @@ body {
 	background-repeat: repeat;
 }
 
-
 #back {
 	position: absolute;
 	top: 0px;
@@ -28,15 +27,15 @@ body {
 }
 
 table {	
-	width: 875px;
+	width: 955px;
 	height: 470px;
-	margin-left: 0px;
+	margin-left: 5px;
 }
 
 tablelargo {	
 	width: 855px;
 	height: 920px;
-	margin-left: 116px;
+	margin-left: 160px;
 }
 
 tableBOX {	
@@ -52,9 +51,10 @@ td {
 	text-align: center;
 }
 
+
 .label {	
-	margin-left: 21px;
-	max-width: 155px; 
+	margin-left: 15px;
+	max-width: 158px; 
 	font-weight: bold;
 	font-size: 1.8em;
 	font-family: console;
@@ -268,12 +268,12 @@ td {
 }
 
 .buttonlargo {
-	min-height: 32px;
-	max-height: 32px;
-	height: 32px;
-	width: 300px;
-	min-width: 300px;
-	max-width: 300px;
+	min-height: 40px;
+	max-height: 40px;
+	height: 40px;
+	width: 240px;
+	min-width: 240px;
+	max-width: 240px;
 	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
 	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
 	box-shadow:inset 0px 1px 0px 0px #ffffff;
@@ -313,12 +313,12 @@ td {
 }
 
 .buttonlargoNO {
-	min-height: 32px;
-	max-height: 32px;
-	height: 32px;
-	width: 300px;
-	min-width: 300px;
-	max-width: 300px;
+	min-height: 40px;
+	max-height: 40px;
+	height: 40px;
+	width: 240px;
+	min-width: 240px;
+	max-width: 240px;
 	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
 	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
 	box-shadow:inset 0px 1px 0px 0px #ffffff;
@@ -358,12 +358,12 @@ td {
 }
 
 .buttonBOX {
-	min-height: 99px;
-	max-height: 99px;
-	height: 99px;
-	width: 99px;
-	min-width: 99px;
-	max-width: 99px;
+	min-height: 310px;
+	max-height: 310px;
+	height: 310px;
+	width: 90px;
+	min-width: 90px;
+	max-width: 90px;
 	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
 	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
 	box-shadow:inset 0px 1px 0px 0px #ffffff;
@@ -401,6 +401,7 @@ td {
 	text-align:center;
 	text-shadow:1px 1px 0px #ffffff;
 }
+
 
 
 .button:active{
