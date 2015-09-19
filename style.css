@@ -27,7 +27,7 @@ body {
 }
 
 table {	
-	width: 955px;
+	width: 919px;
 	height: 470px;
 	margin-left: 5px;
 }
@@ -45,9 +45,6 @@ tableBOX {
 }
 
 td {
-	width: 182px;
-	min-width: 182px;
-	max-width: 182px;
 	text-align: center;
 }
 
@@ -361,8 +358,8 @@ td {
 	min-height: 310px;
 	max-height: 310px;
 	height: 310px;
-	width: 90px;
-	min-width: 90px;
+	width: 80px;
+	min-width: 80px;
 	max-width: 90px;
 	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
 	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
